@@ -5,12 +5,40 @@
         <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>boxdle</title>
-        <script type="module" src="/src/my-element.ts"></script>
+        <script type="module" src="/src/boxdle-display.ts"></script>
+        <script type="module" src="/src/boxdle-guesses.ts"></script>
+        <script type="module" src="/src/game.ts"></script>
     </head>
     <body>
-        <my-element>
-            <p>This is child content</p>
-        </my-element>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                inset: 0;
+                position: absolute;
+                display: grid;
+                grid-template-areas:
+                    "header"
+                    "display"
+                    "guesses";
+                grid-template-rows: min-content 1fr min-content;
+                grid-template-columns: 1fr;
+            }
+            header {
+                grid-area: header;
+            }
+            boxdle-display {
+                grid-area: display;
+            }
+            boxdle-guesses {
+                grid-area: guesses;
+            }
+        </style>
+        <header>
+            <h1>Boxdle</h1>
+        </header>
+        <boxdle-display guessNumber="0"></boxdle-display>
+        <boxdle-guesses></boxdle-guesses>
     </body>
 </html>
 
