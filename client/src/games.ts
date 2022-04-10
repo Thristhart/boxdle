@@ -12,7 +12,7 @@ export const games: GameOption[] = [
     {
         name: "Super Castlevania IV",
         id: "3030-11443",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/1773386-box_scv4.png",
+        image: "https://e.snmc.io/lk/l/x/16435f83263a0fed5a70f9097ca5b09c/8608276",
     },
     {
         name: "The Legend of Zelda: A Link to the Past",
@@ -87,42 +87,22 @@ export const games: GameOption[] = [
     {
         name: "Donkey Kong",
         id: "3030-25744",
-        image: "https://www.giantbomb.com/a/uploads/original/8/82063/2267442-946928-donkey_kong_94.jpg",
-    },
-    {
-        name: "Frogger",
-        id: "3030-24704",
-        image: "https://www.giantbomb.com/a/uploads/original/0/9288/828184-froggercover.png",
-    },
-    {
-        name: "Galaga",
-        id: "3030-15784",
-        image: "https://www.giantbomb.com/a/uploads/original/13/139866/2606606-29167601.jpg",
+        image: "https://www.retrogamecases.com/wp-content/uploads/nes_donkeykong1.jpg",
     },
     {
         name: "Tempest",
         id: "3030-13984",
-        image: "https://www.giantbomb.com/a/uploads/original/0/5469/1308714-tempest1.jpg",
+        image: "https://www.mobygames.com/images/covers/l/263411-tempest-atari-st-front-cover.jpg",
     },
     {
         name: "Ms. Pac-Man",
         id: "3030-6332",
-        image: "https://www.giantbomb.com/a/uploads/original/16/164924/3168908-2857633240-29169.jpg",
+        image: "https://www.mobygames.com/images/covers/l/253238-ms-pac-man-nes-front-cover.png",
     },
     {
         name: "Pitfall!",
         id: "3030-39290",
-        image: "https://www.giantbomb.com/a/uploads/original/9/93770/2292840-mza_1797008913969465104.png",
-    },
-    {
-        name: "Robotron: 2084",
-        id: "3030-11233",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/1407733-35002101.jpg",
-    },
-    {
-        name: "Star Wars",
-        id: "3030-60942",
-        image: "https://www.giantbomb.com/a/uploads/original/10/103881/2958696-star%20wars%20flyer%20front.jpg",
+        image: "https://www.mobygames.com/images/covers/l/19558-pitfall-atari-2600-front-cover.jpg",
     },
     {
         name: "Marble Madness",
@@ -131,8 +111,8 @@ export const games: GameOption[] = [
     },
     {
         name: "Tetris",
-        id: "3030-76928",
-        image: "https://www.giantbomb.com/a/uploads/original/39/393713/3162880-hqdefault.jpg",
+        id: "3030-1896",
+        image: "https://www.mobygames.com/images/covers/l/16097-tetris-nes-front-cover.jpg",
     },
     {
         name: "Ghosts 'N Goblins",
@@ -141,8 +121,8 @@ export const games: GameOption[] = [
     },
     {
         name: "Super Mario Bros.",
-        id: "3030-24621",
-        image: "https://www.giantbomb.com/a/uploads/original/1/14761/822940-smb.jpg",
+        id: "3030-15544",
+        image: "https://www.giantbomb.com/a/uploads/original/9/93770/2362267-nes_supermariobros.jpg",
     },
     {
         name: "The Legend of Zelda",
@@ -163,11 +143,6 @@ export const games: GameOption[] = [
         name: "Mike Tyson's Punch-Out!!",
         id: "3030-4848",
         image: "https://www.giantbomb.com/a/uploads/original/0/3413/220826-mike_tyson_s_punch_out.jpg",
-    },
-    {
-        name: "R-Type",
-        id: "3030-13745",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/3288247-flyer_rtype.png",
     },
     {
         name: "Ninja Gaiden",
@@ -197,7 +172,7 @@ export const games: GameOption[] = [
     {
         name: "Super Mario World",
         id: "3030-1334",
-        image: "https://www.giantbomb.com/a/uploads/original/1/12541/3312460-sq_snes_supermarioworld.jpg",
+        image: "https://m.media-amazon.com/images/I/71TbLYKMk4L._AC_SX466_.jpg",
     },
     {
         name: "Sid Meier's Civilization V",
@@ -205,14 +180,9 @@ export const games: GameOption[] = [
         image: "https://www.giantbomb.com/a/uploads/original/8/87790/1777728-box_civ5.png",
     },
     {
-        name: "The Legend of Zelda: A Link to the Past",
-        id: "3030-10276",
-        image: "https://www.giantbomb.com/a/uploads/original/8/82063/2831954-legend_of_zelda_3_-_snes_-_album_art.jpg",
-    },
-    {
         name: "Lemmings",
-        id: "3030-20594",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/2179488-box_lemmpsp.png",
+        id: "3030-1446",
+        image: "https://www.giantbomb.com/a/uploads/original/7/73970/3140688-lemmings_ami_1_1_us.jpg",
     },
     {
         name: "Monkey Island 2:  LeChuck's Revenge",
@@ -221,13 +191,13 @@ export const games: GameOption[] = [
     },
     {
         name: "Sonic the Hedgehog",
-        id: "3030-38273",
-        image: "https://www.giantbomb.com/a/uploads/original/14/148570/2203042-sonic.jpg",
+        id: "3030-2465",
+        image: "https://www.giantbomb.com/a/uploads/original/0/7465/1296432-sonic_the_hedgehog_boxart__genesis_.jpg",
     },
     {
-        name: "Super Street Fighter II Turbo HD Remix",
-        id: "3030-20616",
-        image: "https://www.giantbomb.com/a/uploads/original/0/1099/900269-826903_sfhdp30f_large.jpg",
+        name: "Street Fighter II",
+        id: "3030-243",
+        image: "https://static.wikia.nocookie.net/capcomdatabase/images/f/fb/SFIICoverScan.png/revision/latest?cb=20080806031247",
     },
     {
         name: "Dune II: The Building of a Dynasty",
@@ -235,14 +205,9 @@ export const games: GameOption[] = [
         image: "https://www.giantbomb.com/a/uploads/original/4/48222/1085884-dune2.jpg",
     },
     {
-        name: "Flashback",
-        id: "3030-42895",
-        image: "https://www.giantbomb.com/a/uploads/original/2/23546/2533748-fb.jpg",
-    },
-    {
-        name: "Mortal Kombat",
-        id: "3030-25042",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/1821533-box_mk.png",
+        name: "Flashback: The Quest for Identity",
+        id: "3030-1066",
+        image: "https://www.mobygames.com/images/covers/l/170648-flashback-the-quest-for-identity-dos-front-cover.jpg",
     },
     {
         name: "Sonic the Hedgehog 2",
@@ -257,12 +222,7 @@ export const games: GameOption[] = [
     {
         name: "Super Mario Kart",
         id: "3030-19071",
-        image: "https://www.giantbomb.com/a/uploads/original/1/12541/3258183-sq_snes_supermariokart.jpg",
-    },
-    {
-        name: "Virtua Racing",
-        id: "3030-11009",
-        image: "https://www.giantbomb.com/a/uploads/original/13/139866/2602795-16193901.jpg",
+        image: "https://mario.wiki.gallery/images/thumb/8/82/Super_Mario_Kart_NA_box_art.png/1200px-Super_Mario_Kart_NA_box_art.png",
     },
     {
         name: "Wolfenstein 3D",
@@ -275,19 +235,19 @@ export const games: GameOption[] = [
         image: "https://www.giantbomb.com/a/uploads/original/1/14206/1152989-d3.jpg",
     },
     {
-        name: "Doom",
+        name: "Doom (2016)",
         id: "3030-20654",
         image: "https://www.giantbomb.com/a/uploads/original/8/82063/2849529-doom.jpg",
     },
     {
-        name: "Gunstar Heroes",
-        id: "3030-2190",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/2525186-box_gsh.png",
+        name: "The Legend of Zelda: Link's Awakening (2019)",
+        id: "3030-72148",
+        image: "https://www.giantbomb.com/a/uploads/original/8/82063/3124242-lahd.jpg",
     },
     {
         name: "The Legend of Zelda: Link's Awakening",
-        id: "3030-72148",
-        image: "https://www.giantbomb.com/a/uploads/original/8/82063/3124242-lahd.jpg",
+        id: "3030-3645",
+        image: "https://www.giantbomb.com/a/uploads/original/8/82063/2267401-zla.jpg",
     },
     {
         name: "Mortal Kombat II",
@@ -316,8 +276,8 @@ export const games: GameOption[] = [
     },
     {
         name: "Secret of Mana",
-        id: "3030-60981",
-        image: "https://www.giantbomb.com/a/uploads/original/45/459166/3205668-mana.jpg",
+        id: "3030-19507",
+        image: "https://www.giantbomb.com/a/uploads/original/9/93770/2364736-snes_secretofmana.jpg",
     },
     {
         name: "SimCity 2000",
@@ -335,9 +295,9 @@ export const games: GameOption[] = [
         image: "https://www.giantbomb.com/a/uploads/original/8/87790/2133355-box_syndicate.png",
     },
     {
-        name: "Doom II RPG",
-        id: "3030-22738",
-        image: "https://www.giantbomb.com/a/uploads/original/0/5848/433700-doom_2_rpg.jpg",
+        name: "Doom II",
+        id: "3030-621",
+        image: "https://www.giantbomb.com/a/uploads/original/16/164924/3118941-5518085719-72175.jpg",
     },
     {
         name: "EarthBound",
@@ -348,11 +308,6 @@ export const games: GameOption[] = [
         name: "Final Fantasy VI",
         id: "3030-6336",
         image: "https://www.giantbomb.com/a/uploads/original/45/459166/3246800-6.jpg",
-    },
-    {
-        name: "Sega Rally Championship",
-        id: "3030-2162",
-        image: "https://www.giantbomb.com/a/uploads/original/1/14206/1124861-src3.jpg",
     },
     {
         name: "Sensible World of Soccer",
@@ -367,7 +322,7 @@ export const games: GameOption[] = [
     {
         name: "Super Metroid",
         id: "3030-8292",
-        image: "https://www.giantbomb.com/a/uploads/original/8/82063/2831953-ps_wiiuvc_supermetroid.png",
+        image: "https://www.mobygames.com/images/covers/l/35570-super-metroid-snes-front-cover.jpg",
     },
     {
         name: "X-COM: UFO Defense",
@@ -375,9 +330,9 @@ export const games: GameOption[] = [
         image: "https://www.giantbomb.com/a/uploads/original/11/117587/2370096-xcombox.jpg",
     },
     {
-        name: "Carrier Command 2",
-        id: "3030-83110",
-        image: "https://www.giantbomb.com/a/uploads/original/6/66643/3297740-7669166581-libra.jpg",
+        name: "Command & Conquer",
+        id: "3030-4384",
+        image: "https://www.giantbomb.com/a/uploads/original/0/2130/184700-cncbox.jpg",
     },
     {
         name: "Warcraft II: Tides of Darkness",
@@ -395,9 +350,9 @@ export const games: GameOption[] = [
         image: "https://www.giantbomb.com/a/uploads/original/9/93770/2364715-snes_yoshis_island.jpg",
     },
     {
-        name: "Carrier Command 2",
-        id: "3030-83110",
-        image: "https://www.giantbomb.com/a/uploads/original/6/66643/3297740-7669166581-libra.jpg",
+        name: "Command & Conquer: Red Alert",
+        id: "3030-249",
+        image: "https://www.giantbomb.com/a/uploads/original/0/2130/637220-ra.jpg",
     },
     {
         name: "Duke Nukem 3D",
@@ -407,17 +362,17 @@ export const games: GameOption[] = [
     {
         name: "NiGHTS into Dreams...",
         id: "3030-9676",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/2115069-box_nid.png",
+        image: "https://www.mobygames.com/images/covers/l/169236-nights-into-dreams-sega-saturn-front-cover.png",
     },
     {
         name: "PaRappa the Rapper",
         id: "3030-18360",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/1881078-box_parappa.png",
+        image: "https://www.mobygames.com/images/covers/l/6110-parappa-the-rapper-playstation-front-cover.jpg",
     },
     {
-        name: "Pokémon Red/Blue",
+        name: "Pokemon Red",
         id: "3030-3966",
-        image: "https://www.giantbomb.com/a/uploads/original/1/17172/1226087-pkmn_rab.jpg",
+        image: "https://archives.bulbagarden.net/media/upload/8/80/Red_EN_boxart.png",
     },
     {
         name: "Quake",
@@ -426,8 +381,8 @@ export const games: GameOption[] = [
     },
     {
         name: "Resident Evil",
-        id: "3030-27715",
-        image: "https://www.giantbomb.com/a/uploads/original/8/82063/2566505-remake.jpg",
+        id: "3030-5842",
+        image: "https://www.giantbomb.com/a/uploads/original/8/87790/1790011-box_re.png",
     },
     {
         name: "Super Mario 64",
@@ -437,7 +392,7 @@ export const games: GameOption[] = [
     {
         name: "Tekken 3",
         id: "3030-11189",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/2114381-box_tekken3.png",
+        image: "https://www.mobygames.com/images/covers/l/261861-tekken-3-playstation-front-cover.png",
     },
     {
         name: "Tomb Raider",
@@ -447,12 +402,12 @@ export const games: GameOption[] = [
     {
         name: "Wave Race 64",
         id: "3030-11969",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/1810181-box_waverace64.png",
+        image: "https://www.mobygames.com/images/covers/l/78637-wave-race-64-kawasaki-jet-ski-nintendo-64-front-cover.png",
     },
     {
         name: "WipEout XL",
         id: "3030-3654",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/2991284-box_woxl.png",
+        image: "https://www.mobygames.com/images/covers/l/175218-wipeout-xl-playstation-front-cover.png",
     },
     {
         name: "Diablo",
@@ -460,24 +415,9 @@ export const games: GameOption[] = [
         image: "https://www.giantbomb.com/a/uploads/original/9/93770/2243596-diablo.jpg",
     },
     {
-        name: "Fallout",
-        id: "3030-11704",
-        image: "https://www.giantbomb.com/a/uploads/original/1/15693/625333-1212697328_fallout_1_cover_1_.jpg",
-    },
-    {
         name: "Final Fantasy Tactics",
         id: "3030-19864",
         image: "https://www.giantbomb.com/a/uploads/original/8/87790/1814645-box_fft.png",
-    },
-    {
-        name: "Final Fantasy VII",
-        id: "3030-13053",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/1814630-box_ff7.png",
-    },
-    {
-        name: "GoldenEye 007",
-        id: "3030-31729",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/1974390-box_ge007.png",
     },
     {
         name: "Gran Turismo",
@@ -527,17 +467,17 @@ export const games: GameOption[] = [
     {
         name: "The Legend of Zelda: Ocarina of Time",
         id: "3030-12572",
-        image: "https://www.giantbomb.com/a/uploads/original/1/12541/3318265-square.png",
+        image: "https://www.mobygames.com/images/covers/l/56747-the-legend-of-zelda-ocarina-of-time-nintendo-64-front-cover.jpg",
     },
     {
         name: "Metal Gear Solid",
-        id: "3030-21227",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/1789942-box_mgsgbc.png",
+        id: "3030-16140",
+        image: "https://www.giantbomb.com/a/uploads/original/45/459166/3252663-mgs.png",
     },
     {
-        name: "Panzer Dragoon Saga",
-        id: "3030-3692",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/2160114-box_pds.png",
+        name: "Panzer Dragoon",
+        id: "3030-4489",
+        image: "https://www.mobygames.com/images/covers/l/15282-panzer-dragoon-sega-saturn-front-cover.jpg",
     },
     {
         name: "Resident Evil 2",
@@ -580,9 +520,9 @@ export const games: GameOption[] = [
         image: "https://www.giantbomb.com/a/uploads/original/45/459166/3236731-torment.jpg",
     },
     {
-        name: "Pokémon HeartGold/SoulSilver",
+        name: "Pokemon HeartGold",
         id: "3030-26372",
-        image: "https://www.giantbomb.com/a/uploads/original/0/976/1359732-hgss.png",
+        image: "https://www.mobygames.com/images/covers/l/465045-pokemon-heartgold-version-nintendo-ds-manual.jpg",
     },
     {
         name: "Quake III Arena",
@@ -606,8 +546,8 @@ export const games: GameOption[] = [
     },
     {
         name: "Unreal Tournament",
-        id: "3030-46266",
-        image: "https://www.giantbomb.com/a/uploads/original/0/1992/2630546-ut_blog_banner-770x250-1341445875.png",
+        id: "3030-17448",
+        image: "https://www.giantbomb.com/a/uploads/original/8/87790/3011753-box_ut.png",
     },
     {
         name: "Counter-Strike: Global Offensive",
@@ -625,14 +565,14 @@ export const games: GameOption[] = [
         image: "https://www.giantbomb.com/a/uploads/original/1/11911/275900-diablo2.jpg",
     },
     {
-        name: "Jet Grind Radio",
+        name: "Jet Set Radio",
         id: "3030-20096",
         image: "https://www.giantbomb.com/a/uploads/original/8/87790/2139801-box_jgr.png",
     },
     {
         name: "The Legend of Zelda: Majora's Mask",
         id: "3030-13594",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/2204861-box_tlozmm.png",
+        image: "https://images.nintendolife.com/2446a1b7760a6/na.large.jpg",
     },
     {
         name: "The Sims",
@@ -665,11 +605,6 @@ export const games: GameOption[] = [
         image: "https://www.giantbomb.com/a/uploads/original/8/87790/2167105-box_ff10.png",
     },
     {
-        name: "Gran Turismo 3 A-Spec",
-        id: "3030-12950",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/2139781-box_gt3.png",
-    },
-    {
         name: "Grand Theft Auto III",
         id: "3030-3724",
         image: "https://www.giantbomb.com/a/uploads/original/8/82063/2737120-grandtheftauto3.jpg",
@@ -687,7 +622,7 @@ export const games: GameOption[] = [
     {
         name: "Ikaruga",
         id: "3030-12069",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/1841439-box_ikaruga.png",
+        image: "https://www.mobygames.com/images/covers/l/50394-ikaruga-gamecube-front-cover.jpg",
     },
     {
         name: "Max Payne",
@@ -835,14 +770,19 @@ export const games: GameOption[] = [
         image: "https://www.giantbomb.com/a/uploads/original/8/87790/1875219-box_dmc3.png",
     },
     {
-        name: "God of War",
+        name: "God of War (2018)",
         id: "3030-54229",
         image: "https://www.giantbomb.com/a/uploads/original/33/338034/3287019-3786480319-Z7hV9.png",
     },
     {
+        name: "God of War",
+        id: "3030-6959",
+        image: "https://www.giantbomb.com/a/uploads/original/8/87790/2139780-box_gow.png",
+    },
+    {
         name: "Guitar Hero",
-        id: "3030-31632",
-        image: "https://www.giantbomb.com/a/uploads/original/0/5150/1395671-guitar_hero_app_icon___white_background.jpg",
+        id: "3030-6311",
+        image: "https://www.mobygames.com/images/covers/l/236435-guitar-hero-playstation-2-front-cover.jpg",
     },
     {
         name: "Psychonauts",
@@ -916,8 +856,8 @@ export const games: GameOption[] = [
     },
     {
         name: "Rock Band",
-        id: "3030-29073",
-        image: "https://www.giantbomb.com/a/uploads/original/6/63119/1732040-rock_band_iphone.jpg",
+        id: "3030-9860",
+        image: "https://www.giantbomb.com/a/uploads/original/0/4/175816-rock_band.jpg",
     },
     {
         name: "Super Mario Galaxy",
@@ -941,8 +881,8 @@ export const games: GameOption[] = [
     },
     {
         name: "Dead Space",
-        id: "3030-83443",
-        image: "https://www.giantbomb.com/a/uploads/original/33/338034/3304968-1758772040-new-p.jpg",
+        id: "3030-20800",
+        image: "https://www.giantbomb.com/a/uploads/original/8/82063/2529747-deadspaceclean.jpg",
     },
     {
         name: "Fallout 3",
@@ -970,9 +910,9 @@ export const games: GameOption[] = [
         image: "https://www.giantbomb.com/a/uploads/original/8/87790/1794117-box_lbppsp.png",
     },
     {
-        name: "Persona 4 Arena",
-        id: "3030-36274",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/2280496-box_p4a.png",
+        name: "Persona 4",
+        id: "3030-21373",
+        image: "https://www.giantbomb.com/a/uploads/original/8/87790/1845429-box_smtp4.png",
     },
     {
         name: "Rock Band 2",
@@ -1106,8 +1046,8 @@ export const games: GameOption[] = [
     },
     {
         name: "The Walking Dead",
-        id: "3030-74852",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/3297248-flyer_twd.png",
+        id: "3030-34205",
+        image: "https://www.giantbomb.com/a/uploads/original/8/87790/2348800-box_twdead.png",
     },
     {
         name: "XCOM: Enemy Unknown",
@@ -1117,7 +1057,7 @@ export const games: GameOption[] = [
     {
         name: "Dota 2",
         id: "3030-32887",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/2993179-box_dota2.png",
+        image: "https://i.pinimg.com/736x/d1/59/e9/d159e9ca272b73f56ef2b770a7c0b17b.jpg",
     },
     {
         name: "Grand Theft Auto V",
@@ -1150,26 +1090,6 @@ export const games: GameOption[] = [
         image: "https://www.giantbomb.com/a/uploads/original/8/82063/2946176-smobox.jpg",
     },
     {
-        name: "Minecraft",
-        id: "3030-30475",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/3020660-box_mc.png",
-    },
-    {
-        name: "Grand Theft Auto V",
-        id: "3030-36765",
-        image: "https://www.giantbomb.com/a/uploads/original/0/3699/2463980-grand%20theft%20auto%20v.jpg",
-    },
-    {
-        name: "EA Replay",
-        id: "3030-10965",
-        image: "https://www.giantbomb.com/a/uploads/original/0/4647/674621-replay_usa.jpg",
-    },
-    {
-        name: "Wii Sports",
-        id: "3030-13328",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/2280537-box_wiisp.png",
-    },
-    {
         name: "PUBG: Battlegrounds",
         id: "3030-54979",
         image: "https://www.giantbomb.com/a/uploads/original/8/87790/3309402-box_pubgbg.png",
@@ -1185,14 +1105,9 @@ export const games: GameOption[] = [
         image: "https://www.giantbomb.com/a/uploads/original/8/82063/2600974-12510938343_01c49da2be_o.jpg",
     },
     {
-        name: "Pokémon FireRed/LeafGreen",
+        name: "Pokemon FireRed",
         id: "3030-14522",
-        image: "https://www.giantbomb.com/a/uploads/original/9/95666/1619654-pkmnfrlgjapanese.png",
-    },
-    {
-        name: "Yellow",
-        id: "3030-63933",
-        image: "https://www.giantbomb.com/a/uploads/original/36/369765/2985962-yellowonlinescreenshot.png",
+        image: "https://www.mobygames.com/images/covers/l/47702-pokemon-firered-version-game-boy-advance-front-cover.jpg",
     },
     {
         name: "Wii Fit",
@@ -1208,11 +1123,6 @@ export const games: GameOption[] = [
         name: "Super Mario Bros. / Tetris / Nintendo World Cup",
         id: "3030-32012",
         image: "https://www.giantbomb.com/a/uploads/original/16/160705/2260300-smbtnwcboxart.jpg",
-    },
-    {
-        name: "Pac-Man",
-        id: "3030-55512",
-        image: "https://www.giantbomb.com/a/uploads/original/32/328134/2884415-nes_pac-man_tengen_box.jpg",
     },
     {
         name: "Animal Crossing: New Horizons",
@@ -1240,11 +1150,6 @@ export const games: GameOption[] = [
         image: "https://www.giantbomb.com/a/uploads/original/8/87790/2119731-box_nsmb.png",
     },
     {
-        name: "The Elder Scrolls V: Skyrim",
-        id: "3030-33394",
-        image: "https://www.giantbomb.com/a/uploads/original/0/3661/1895988-skyrim.png",
-    },
-    {
         name: "Call of Duty: Modern Warfare",
         id: "3030-73517",
         image: "https://www.giantbomb.com/a/uploads/original/8/87790/3132551-box_codmw.png",
@@ -1260,24 +1165,14 @@ export const games: GameOption[] = [
         image: "https://www.giantbomb.com/a/uploads/original/8/87790/2582053-box_d3ros.png",
     },
     {
-        name: "The Witcher 3: Wild Hunt",
-        id: "3030-41484",
-        image: "https://www.giantbomb.com/a/uploads/original/0/3699/2945734-the%20witcher%203%20-%20wild%20hunt.jpg",
-    },
-    {
         name: "Human: Fall Flat",
         id: "3030-53648",
         image: "https://www.giantbomb.com/a/uploads/original/8/87790/2991341-box_hff.png",
     },
     {
-        name: "Pokémon Gold/Silver",
+        name: "Pokemon Gold",
         id: "3030-8210",
-        image: "https://www.giantbomb.com/a/uploads/original/1/17172/1276964-pkmn_goldsilver.png",
-    },
-    {
-        name: "The Dark Crystal: Age of Resistance Tactics",
-        id: "3030-73817",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/3160677-box_tdcaort.png",
+        image: "https://upload.wikimedia.org/wikipedia/en/4/4c/Pok%C3%A9mon_box_art_-_Gold_Version.png",
     },
     {
         name: "Duck Hunt",
@@ -1290,11 +1185,6 @@ export const games: GameOption[] = [
         image: "https://www.giantbomb.com/a/uploads/original/0/5150/811185-wii_play.jpg",
     },
     {
-        name: "Grand Theft Auto: San Andreas",
-        id: "3030-7120",
-        image: "https://www.giantbomb.com/a/uploads/original/8/82063/2737117-sanandreas.jpg",
-    },
-    {
         name: "The Legend of Zelda: Breath of the Wild",
         id: "3030-41355",
         image: "https://www.giantbomb.com/a/uploads/original/0/3699/2920687-the%20legend%20of%20zelda%20-%20breath%20of%20the%20wild%20v7.jpg",
@@ -1303,11 +1193,6 @@ export const games: GameOption[] = [
         name: "Super Smash Bros. Ultimate",
         id: "3030-66900",
         image: "https://www.giantbomb.com/a/uploads/original/8/82063/3036186-9413812974-0fa98.jpg",
-    },
-    {
-        name: "Super Mario World",
-        id: "3030-1334",
-        image: "https://www.giantbomb.com/a/uploads/original/1/12541/3312460-sq_snes_supermarioworld.jpg",
     },
     {
         name: "Call of Duty: Modern Warfare 3",
@@ -1325,34 +1210,14 @@ export const games: GameOption[] = [
         image: "https://www.giantbomb.com/a/uploads/original/8/82063/2560027-bl2clean.jpg",
     },
     {
-        name: "Pokémon Sun/Moon",
+        name: "Pokemon Sun",
         id: "3030-52769",
-        image: "https://www.giantbomb.com/a/uploads/original/8/82063/2901149-gbpsmcover.jpg",
+        image: "https://www.mobygames.com/images/covers/l/504385-pokemon-sun-nintendo-3ds-front-cover.jpg",
     },
     {
-        name: "Pokémon Ultra Sun/Ultra Moon",
-        id: "3030-59811",
-        image: "https://www.giantbomb.com/a/uploads/original/0/9536/2969845-pokemon%20um%20us.png",
-    },
-    {
-        name: "Grand Theft Auto IV",
-        id: "3030-20457",
-        image: "https://www.giantbomb.com/a/uploads/original/9/93770/2446670-gta_1446_a023.jpg",
-    },
-    {
-        name: "Pokémon Diamond/Pearl",
+        name: "Pokemon Diamond",
         id: "3030-3240",
-        image: "https://www.giantbomb.com/a/uploads/original/9/99864/2389393-pok_mon_diamond_and_pearl_box_artwork.jpg",
-    },
-    {
-        name: "Platinum",
-        id: "3030-13361",
-        image: "https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png",
-    },
-    {
-        name: "Super Mario Bros. 3",
-        id: "3030-10299",
-        image: "https://www.giantbomb.com/a/uploads/original/9/93770/2362272-nes_supermariobros3_4.jpg",
+        image: "https://www.mobygames.com/images/covers/l/341699-pokemon-diamond-version-nintendo-ds-front-cover.jpg",
     },
     {
         name: "Call of Duty: Black Ops II",
@@ -1380,9 +1245,9 @@ export const games: GameOption[] = [
         image: "https://www.giantbomb.com/a/uploads/original/8/87790/3226660-box_ndogs.png",
     },
     {
-        name: "Pokémon Sword/Shield",
+        name: "Pokemon Sword",
         id: "3030-59938",
-        image: "https://www.giantbomb.com/a/uploads/original/45/459166/3216030-poke.jpg",
+        image: "https://www.mobygames.com/images/covers/l/607732-pokemon-sword-nintendo-switch-front-cover.jpg",
     },
     {
         name: "Mario Kart DS",
@@ -1390,39 +1255,19 @@ export const games: GameOption[] = [
         image: "https://www.giantbomb.com/a/uploads/original/1/12541/3258180-sq_nds_mariokartds.jpg",
     },
     {
-        name: "Super Mario Odyssey",
-        id: "3030-56733",
-        image: "https://www.giantbomb.com/a/uploads/original/8/82063/2946176-smobox.jpg",
-    },
-    {
-        name: "Red Dead Redemption",
-        id: "3030-25249",
-        image: "https://www.giantbomb.com/a/uploads/original/8/82063/2737123-reddeadredemption.jpg",
-    },
-    {
-        name: "Super Mario 64",
-        id: "3030-2931",
-        image: "https://www.giantbomb.com/a/uploads/original/1/12541/3312461-sq_n64_supermario64.jpg",
-    },
-    {
         name: "Call of Duty: Modern Warfare 2",
         id: "3030-24713",
         image: "https://www.giantbomb.com/a/uploads/original/0/8169/1112856-modern_warfare_2_cover.png",
     },
     {
-        name: "Pokémon Ruby/Sapphire",
+        name: "Pokemon Ruby",
         id: "3030-10122",
-        image: "https://www.giantbomb.com/a/uploads/original/1/17172/1255532-pkmnrubysapphire.png",
+        image: "https://archives.bulbagarden.net/media/upload/5/5f/Ruby_EN_boxart.png",
     },
     {
         name: "New Super Mario Bros. U",
         id: "3030-35574",
         image: "https://www.giantbomb.com/a/uploads/original/9/93770/2392120-nsmbu_illu01_1_ad.png",
-    },
-    {
-        name: "Sonic the Hedgehog",
-        id: "3030-38273",
-        image: "https://www.giantbomb.com/a/uploads/original/14/148570/2203042-sonic.jpg",
     },
     {
         name: "Lemmings",
@@ -1440,34 +1285,14 @@ export const games: GameOption[] = [
         image: "https://www.giantbomb.com/a/uploads/original/12/121177/1728392-tsag_dos_front.jpg",
     },
     {
-        name: "Sid Meier's Civilization V",
-        id: "3030-30057",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/1777728-box_civ5.png",
-    },
-    {
-        name: "Dune II: The Building of a Dynasty",
-        id: "3030-14236",
-        image: "https://www.giantbomb.com/a/uploads/original/4/48222/1085884-dune2.jpg",
-    },
-    {
         name: "Mortal Kombat",
-        id: "3030-25042",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/1821533-box_mk.png",
+        id: "3030-15743",
+        image: "https://www.mksecrets.net/images/mk1/mk1-boxshot01.jpg",
     },
     {
         name: "Shin Megami Tensei",
         id: "3030-19250",
         image: "https://www.giantbomb.com/a/uploads/original/9/93770/2358108-shin.png",
-    },
-    {
-        name: "Doom",
-        id: "3030-20654",
-        image: "https://www.giantbomb.com/a/uploads/original/8/82063/2849529-doom.jpg",
-    },
-    {
-        name: "Mortal Kombat II",
-        id: "3030-3571",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/1338358-mk2_vert.png",
     },
     {
         name: "Disney's Aladdin",
@@ -1476,18 +1301,13 @@ export const games: GameOption[] = [
     },
     {
         name: "Myst",
-        id: "3030-83716",
-        image: "https://www.giantbomb.com/a/uploads/original/33/338034/3310352-8512640913-libra.jpg",
+        id: "3030-3970",
+        image: "https://www.mobygames.com/images/covers/l/11855-myst-windows-front-cover.jpg",
     },
     {
         name: "Star Trek: The Next Generation",
         id: "3030-3555",
         image: "https://www.giantbomb.com/a/uploads/original/0/3413/237663-star_trek_ng.jpg",
-    },
-    {
-        name: "Final Fantasy VI",
-        id: "3030-6336",
-        image: "https://www.giantbomb.com/a/uploads/original/45/459166/3246800-6.jpg",
     },
     {
         name: "Tekken",
@@ -1507,7 +1327,7 @@ export const games: GameOption[] = [
     {
         name: "Sonic & Knuckles",
         id: "3030-18115",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/1810169-box_sak.png",
+        image: "https://www.mobygames.com/images/covers/l/170170-sonic-knuckles-genesis-front-cover.jpg",
     },
     {
         name: "Destruction Derby",
@@ -1515,9 +1335,9 @@ export const games: GameOption[] = [
         image: "https://www.giantbomb.com/a/uploads/original/8/87790/2982966-box_dd.png",
     },
     {
-        name: "Carrier Command 2",
-        id: "3030-83110",
-        image: "https://www.giantbomb.com/a/uploads/original/6/66643/3297740-7669166581-libra.jpg",
+        name: "Command & Conquer: Red Alert 2",
+        id: "3030-18072",
+        image: "https://www.giantbomb.com/a/uploads/original/0/7465/672499-373_63454500.jpg",
     },
     {
         name: "Soul Edge",
@@ -1540,14 +1360,9 @@ export const games: GameOption[] = [
         image: "https://www.giantbomb.com/a/uploads/original/0/112/699574-chrono.jpg",
     },
     {
-        name: "Carrier Command 2",
-        id: "3030-83110",
-        image: "https://www.giantbomb.com/a/uploads/original/6/66643/3297740-7669166581-libra.jpg",
-    },
-    {
-        name: "Quake",
-        id: "3030-8015",
-        image: "https://www.giantbomb.com/a/uploads/original/1/13692/915551-dfvgbhnm.jpg",
+        name: "Command & Conquer: Red Alert 3",
+        id: "3030-20660",
+        image: "https://www.giantbomb.com/a/uploads/original/8/87790/2167092-box_cacra3.png",
     },
     {
         name: "Crash Bandicoot",
@@ -1561,13 +1376,8 @@ export const games: GameOption[] = [
     },
     {
         name: "Tomb Raider",
-        id: "3030-27312",
-        image: "https://www.giantbomb.com/a/uploads/original/8/82063/2351232-tomb_raider.jpg",
-    },
-    {
-        name: "PaRappa the Rapper",
-        id: "3030-18360",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/1881078-box_parappa.png",
+        id: "3030-3023",
+        image: "https://www.giantbomb.com/a/uploads/original/0/2560/217714-tombraiderpccover.jpg",
     },
     {
         name: "Castlevania: Symphony of the Night",
@@ -1575,19 +1385,9 @@ export const games: GameOption[] = [
         image: "https://www.giantbomb.com/a/uploads/original/25/251278/3052820-castlevania%20sotn%20box%20art.jpg",
     },
     {
-        name: "Final Fantasy VII",
-        id: "3030-13053",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/1814630-box_ff7.png",
-    },
-    {
         name: "Carmageddon",
         id: "3030-18394",
         image: "https://www.giantbomb.com/a/uploads/original/7/73970/3268527-carmageddon_pc_1_1_us.jpg",
-    },
-    {
-        name: "Age of Empires",
-        id: "3030-10485",
-        image: "https://www.giantbomb.com/a/uploads/original/1/17557/1131792-age_of_empires_user.jpg",
     },
     {
         name: "Oddworld: Abe's Oddysee",
@@ -1605,19 +1405,9 @@ export const games: GameOption[] = [
         image: "https://www.giantbomb.com/a/uploads/original/9/93770/2360279-baldur.png",
     },
     {
-        name: "Resident Evil 2",
-        id: "3030-50601",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/3049558-box_re2.png",
-    },
-    {
         name: "Metal Gear Solid",
         id: "3030-21227",
         image: "https://www.giantbomb.com/a/uploads/original/8/87790/1789942-box_mgsgbc.png",
-    },
-    {
-        name: "Half-Life",
-        id: "3030-2980",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/2489840-box_hl1.png",
     },
     {
         name: "StarCraft: Brood War",
@@ -1630,11 +1420,6 @@ export const games: GameOption[] = [
         image: "https://www.giantbomb.com/a/uploads/original/8/87790/3103067-box_me.png",
     },
     {
-        name: "Final Fantasy VII",
-        id: "3030-13053",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/1814630-box_ff7.png",
-    },
-    {
         name: "Driver",
         id: "3030-7020",
         image: "https://www.giantbomb.com/a/uploads/original/8/87790/1799358-box_driver.png",
@@ -1643,11 +1428,6 @@ export const games: GameOption[] = [
         name: "Unreal Tournament",
         id: "3030-46266",
         image: "https://www.giantbomb.com/a/uploads/original/0/1992/2630546-ut_blog_banner-770x250-1341445875.png",
-    },
-    {
-        name: "Silent Hill",
-        id: "3030-4312",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/1799372-box_silenthill.png",
     },
     {
         name: "Legacy of Kain: Soul Reaver",
@@ -1670,54 +1450,9 @@ export const games: GameOption[] = [
         image: "https://www.giantbomb.com/a/uploads/original/8/87790/1790001-box_dinocr.png",
     },
     {
-        name: "Deus",
-        id: "3030-3226",
-        image: "https://www.giantbomb.com/a/uploads/original/9/97089/2495496-untitled.png",
-    },
-    {
-        name: "Diablo II",
-        id: "3030-1119",
-        image: "https://www.giantbomb.com/a/uploads/original/1/11911/275900-diablo2.jpg",
-    },
-    {
-        name: "The Sims",
-        id: "3030-17463",
-        image: "https://www.giantbomb.com/a/uploads/original/1/14761/610387-sims_front.jpg",
-    },
-    {
         name: "Final Fantasy IX",
         id: "3030-8825",
         image: "https://www.giantbomb.com/a/uploads/original/8/87790/1814634-box_ff9.png",
-    },
-    {
-        name: "Jet Grind Radio",
-        id: "3030-20096",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/2139801-box_jgr.png",
-    },
-    {
-        name: "Counter-Strike: Global Offensive",
-        id: "3030-36113",
-        image: "https://www.giantbomb.com/a/uploads/original/1/13692/2302957-i2cs9uzmq4yua.jpg",
-    },
-    {
-        name: "Carrier Command 2",
-        id: "3030-83110",
-        image: "https://www.giantbomb.com/a/uploads/original/6/66643/3297740-7669166581-libra.jpg",
-    },
-    {
-        name: "Devil May Cry",
-        id: "3030-13072",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/1875217-box_dmc.png",
-    },
-    {
-        name: "Final Fantasy X",
-        id: "3030-11237",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/2167105-box_ff10.png",
-    },
-    {
-        name: "ICO",
-        id: "3030-9638",
-        image: "https://www.giantbomb.com/a/uploads/original/9/93770/2380170-yande.re_154252_ico_ico__character__landscape_paper_texture_ueda_fumito_yorda.jpg",
     },
     {
         name: "Red Faction",
@@ -1725,34 +1460,14 @@ export const games: GameOption[] = [
         image: "https://www.giantbomb.com/a/uploads/original/8/87790/2116223-box_rfaction.png",
     },
     {
-        name: "Super Smash Bros. Melee",
-        id: "3030-17743",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/3014327-box_ssbm.png",
-    },
-    {
         name: "Stronghold",
         id: "3030-6940",
         image: "https://www.giantbomb.com/a/uploads/original/1/15693/608869-444894_88954_front_1_.jpg",
     },
     {
-        name: "Phoenix Wright: Ace Attorney",
-        id: "3030-19409",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/1836592-box_pwaa.png",
-    },
-    {
         name: "Advance Wars",
         id: "3030-12719",
         image: "https://www.giantbomb.com/a/uploads/original/8/87790/1841697-box_awars.png",
-    },
-    {
-        name: "Grand Theft Auto: Vice City",
-        id: "3030-17036",
-        image: "https://www.giantbomb.com/a/uploads/original/8/82063/2737121-vicecity.jpg",
-    },
-    {
-        name: "Kingdom Hearts",
-        id: "3030-10983",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/1897536-box_khearts.png",
     },
     {
         name: "Ratchet & Clank",
@@ -1800,21 +1515,6 @@ export const games: GameOption[] = [
         image: "https://www.giantbomb.com/a/uploads/original/8/87790/2115768-box_onimusha3.png",
     },
     {
-        name: "Metal Gear Solid 3: Snake Eater",
-        id: "3030-18082",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/1875239-box_mgs3.png",
-    },
-    {
-        name: "Psychonauts",
-        id: "3030-2906",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/1841447-box_pnauts.png",
-    },
-    {
-        name: "God of War",
-        id: "3030-54229",
-        image: "https://www.giantbomb.com/a/uploads/original/33/338034/3287019-3786480319-Z7hV9.png",
-    },
-    {
         name: "Jade Empire",
         id: "3030-8580",
         image: "https://www.giantbomb.com/a/uploads/original/8/87790/2129484-box_jempire.png",
@@ -1825,44 +1525,19 @@ export const games: GameOption[] = [
         image: "https://www.giantbomb.com/a/uploads/original/8/87790/2151665-box_tsfp.png",
     },
     {
-        name: "Resident Evil 4",
-        id: "3030-1578",
-        image: "https://www.giantbomb.com/a/uploads/original/8/82063/2566479-re4.jpg",
-    },
-    {
         name: "Final Fantasy XII",
         id: "3030-11497",
         image: "https://www.giantbomb.com/a/uploads/original/8/87790/2179481-box_ff12.png",
     },
     {
-        name: "Ōkami",
-        id: "3030-20555",
-        image: "https://www.giantbomb.com/a/uploads/original/8/82063/2567171-okami.jpg",
-    },
-    {
         name: "Dead Rising",
-        id: "3030-32838",
-        image: "https://www.giantbomb.com/a/uploads/original/0/2579/1752977-download.jpg",
+        id: "3030-8720",
+        image: "https://www.giantbomb.com/a/uploads/original/8/87790/2280463-box_drising.png",
     },
     {
-        name: "Gears of War",
-        id: "3030-12231",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/1970470-box_gow.png",
-    },
-    {
-        name: "Mass Effect",
-        id: "3030-16909",
-        image: "https://www.giantbomb.com/a/uploads/original/8/82063/2577246-me1.jpg",
-    },
-    {
-        name: "Portal",
-        id: "3030-21170",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/2525229-box_portal.png",
-    },
-    {
-        name: "Team Fortress 2",
-        id: "3030-18162",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/2243884-box_tf2.png",
+        name: "Doom",
+        id: "3030-7326",
+        image: "https://www.giantbomb.com/a/uploads/original/16/164924/3118940-2800078642-72175.jpg",
     },
     {
         name: "Crackdown",
@@ -1880,11 +1555,6 @@ export const games: GameOption[] = [
         image: "https://www.giantbomb.com/a/uploads/original/8/87790/1814631-box_ff7cc.png",
     },
     {
-        name: "Carrier Command 2",
-        id: "3030-83110",
-        image: "https://www.giantbomb.com/a/uploads/original/6/66643/3297740-7669166581-libra.jpg",
-    },
-    {
         name: "Metal Gear Solid 4: Guns of the Patriots",
         id: "3030-20669",
         image: "https://www.giantbomb.com/a/uploads/original/9/93770/2355512-ps3_mgs4gunsofthepatriots_8.jpg",
@@ -1900,24 +1570,9 @@ export const games: GameOption[] = [
         image: "https://www.giantbomb.com/a/uploads/original/8/87790/2991096-box_aot.png",
     },
     {
-        name: "Left 4 Dead",
-        id: "3030-20690",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/1970474-box_l4d.png",
-    },
-    {
-        name: "Batman: Arkham Asylum",
-        id: "3030-23245",
-        image: "https://www.giantbomb.com/a/uploads/original/8/82063/2606172-batmanaaclean.jpg",
-    },
-    {
         name: "Borderlands",
         id: "3030-20487",
         image: "https://www.giantbomb.com/a/uploads/original/8/82063/2560037-blclean.jpg",
-    },
-    {
-        name: "Bayonetta",
-        id: "3030-20710",
-        image: "https://www.giantbomb.com/a/uploads/original/1/13158/1124551-gb.png",
     },
     {
         name: "Brütal Legend",
@@ -1928,16 +1583,6 @@ export const games: GameOption[] = [
         name: "Plants vs. Zombies",
         id: "3030-25709",
         image: "https://www.giantbomb.com/a/uploads/original/8/87790/1514401-pvz_box.png",
-    },
-    {
-        name: "Limbo",
-        id: "3030-30380",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/2136549-box_limbo.png",
-    },
-    {
-        name: "StarCraft II: Wings of Liberty",
-        id: "3030-20674",
-        image: "https://www.giantbomb.com/a/uploads/original/8/82063/2843327-starcraft_ii_-_box_art.jpg",
     },
     {
         name: "Danganronpa: Trigger Happy Havoc",
@@ -1955,21 +1600,6 @@ export const games: GameOption[] = [
         image: "https://www.giantbomb.com/a/uploads/original/8/87790/1871436-box_dinferno.png",
     },
     {
-        name: "The Elder Scrolls V: Skyrim",
-        id: "3030-33394",
-        image: "https://www.giantbomb.com/a/uploads/original/0/3661/1895988-skyrim.png",
-    },
-    {
-        name: "Portal 2",
-        id: "3030-21662",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/3140541-box_p2.png",
-    },
-    {
-        name: "Dark Souls",
-        id: "3030-32697",
-        image: "https://www.giantbomb.com/a/uploads/original/8/82063/2555200-dsclean.jpg",
-    },
-    {
         name: "Saints Row: The Third",
         id: "3030-25725",
         image: "https://www.giantbomb.com/a/uploads/original/8/87790/3046324-box_sr3.png",
@@ -1983,11 +1613,6 @@ export const games: GameOption[] = [
         name: "Ni no Kuni: Wrath of the White Witch",
         id: "3030-33382",
         image: "https://www.giantbomb.com/a/uploads/original/8/87790/2412937-box_nnk.png",
-    },
-    {
-        name: "XCOM: Enemy Unknown",
-        id: "3030-37152",
-        image: "https://www.giantbomb.com/a/uploads/original/8/82063/2560503-xcomclean.jpg",
     },
     {
         name: "Mark of the Ninja",
@@ -2008,11 +1633,6 @@ export const games: GameOption[] = [
         name: "Fez",
         id: "3030-24768",
         image: "https://www.giantbomb.com/a/uploads/original/8/87790/3107389-box_fez.png",
-    },
-    {
-        name: "Dota 2",
-        id: "3030-32887",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/2993179-box_dota2.png",
     },
     {
         name: "Metal Gear Rising: Revengeance",
@@ -2040,11 +1660,6 @@ export const games: GameOption[] = [
         image: "https://www.giantbomb.com/a/uploads/original/1/19306/2219819-divinityosboxart.jpg",
     },
     {
-        name: "Mario Kart 8",
-        id: "3030-42929",
-        image: "https://www.giantbomb.com/a/uploads/original/8/82063/2600974-12510938343_01c49da2be_o.jpg",
-    },
-    {
         name: "Hearthstone",
         id: "3030-42033",
         image: "https://www.giantbomb.com/a/uploads/original/0/334/2907825-2849272-box_hearthstone.png",
@@ -2067,7 +1682,7 @@ export const games: GameOption[] = [
     {
         name: "Undertale",
         id: "3030-50897",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/2995200-box_utale.png",
+        image: "https://nintendosoup.com/wp-content/uploads/2018/07/undertale-packaging-jp-1.jpg",
     },
     {
         name: "Inside",
@@ -2075,19 +1690,9 @@ export const games: GameOption[] = [
         image: "https://www.giantbomb.com/a/uploads/original/0/1992/2868627-2867607-downloadimage%2B%281%29.jpg",
     },
     {
-        name: "Overwatch",
-        id: "3030-48190",
-        image: "https://www.giantbomb.com/a/uploads/original/8/82063/2852990-overwatch.jpg",
-    },
-    {
         name: "Firewatch",
         id: "3030-45658",
         image: "https://www.giantbomb.com/a/uploads/original/8/87790/2994287-box_fw.png",
-    },
-    {
-        name: "Stardew Valley",
-        id: "3030-50899",
-        image: "https://www.giantbomb.com/a/uploads/original/8/87790/3019631-box_sv.png",
     },
     {
         name: "Hitman 3",
@@ -2105,9 +1710,9 @@ export const games: GameOption[] = [
         image: "https://www.giantbomb.com/a/uploads/original/8/87790/2952215-box_cuphead.png",
     },
     {
-        name: "Project Automata",
-        id: "3030-55373",
-        image: "https://www.giantbomb.com/a/uploads/original/14/148519/2881422-industrialwallpaper.png",
+        name: "NieR: Automata",
+        id: "3030-49998",
+        image: "https://www.giantbomb.com/a/uploads/original/8/82063/3124187-8762523691-packs.jpg",
     },
     {
         name: "Persona 5",
@@ -2120,14 +1725,9 @@ export const games: GameOption[] = [
         image: "https://www.giantbomb.com/a/uploads/original/8/87790/2949240-box_fhonor.png",
     },
     {
-        name: "God of War",
-        id: "3030-54229",
-        image: "https://www.giantbomb.com/a/uploads/original/33/338034/3287019-3786480319-Z7hV9.png",
-    },
-    {
         name: "Celeste",
-        id: "3030-53678",
-        image: "https://www.giantbomb.com/a/uploads/original/2/23093/2864338-celeste001.png",
+        id: "3030-58634",
+        image: "https://www.giantbomb.com/a/uploads/original/8/87790/3005645-box_celeste.png",
     },
     {
         name: "Return of the Obra Dinn",
@@ -2170,19 +1770,14 @@ export const games: GameOption[] = [
         image: "https://www.giantbomb.com/a/uploads/original/13/135472/3050584-4046791969-NUolXPIw",
     },
     {
-        name: "Final Fantasy VII/Final Fantasy VIII Remastered Twin Pack",
-        id: "3030-75615",
-        image: "https://www.giantbomb.com/a/uploads/original/16/164924/3133429-7847387903-final.jpg",
+        name: "Final Fantasy VIII",
+        id: "3030-12277",
+        image: "https://www.giantbomb.com/a/uploads/original/36/369565/2995550-ffviii-twitch-icon.jpg",
     },
     {
         name: "Paradise Killer",
         id: "3030-77201",
         image: "https://www.giantbomb.com/a/uploads/original/13/139245/3167742-paradisekiller.jpg",
-    },
-    {
-        name: "Wildfire",
-        id: "3030-78070",
-        image: "https://www.giantbomb.com/a/uploads/original/15/159079/3185435-2394788187-heade.jpg",
     },
     {
         name: "Hades",
@@ -2203,11 +1798,6 @@ export const games: GameOption[] = [
         name: "Among Us",
         id: "3030-70938",
         image: "https://www.giantbomb.com/a/uploads/original/8/87790/3262033-box_amongus.jpg",
-    },
-    {
-        name: "Noita",
-        id: "3030-68227",
-        image: "https://www.giantbomb.com/a/uploads/original/3/33429/3016748-noita%20logo.png",
     },
     {
         name: "Monster Train",
