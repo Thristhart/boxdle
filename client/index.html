@@ -8,6 +8,9 @@
         <script type="module" src="/src/boxdle-display.ts"></script>
         <script type="module" src="/src/boxdle-guesses.ts"></script>
         <script type="module" src="/src/game.ts"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet" />
     </head>
     <body>
         <style>
@@ -23,9 +26,16 @@
                     "guesses";
                 grid-template-rows: min-content 1fr min-content;
                 grid-template-columns: 1fr;
+
+                font-family: "VT323", monospace;
+
+                --theme-gray: #d3d6da;
+                --theme-correct: #6aaa64;
+                --theme-incorrect: #787c7e;
             }
             header {
                 grid-area: header;
+                text-align: center;
             }
             boxdle-display {
                 grid-area: display;
@@ -33,12 +43,28 @@
             boxdle-guesses {
                 grid-area: guesses;
             }
+            section {
+                grid-area: display;
+                position: relative;
+            }
+            #test {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+                inset: 0;
+                position: absolute;
+            }
         </style>
         <header>
             <h1>Boxdle</h1>
+            <h2 id="name"></h2>
         </header>
-        <boxdle-display guessNumber="0"></boxdle-display>
-        <boxdle-guesses></boxdle-guesses>
+        <section>
+            <img id="test" src="" />
+        </section>
+        <label>reverse <input type="checkbox" id="reverse" /></label>
+        <!-- <boxdle-display guessNumber="0"></boxdle-display>
+        <boxdle-guesses></boxdle-guesses> -->
     </body>
 </html>
 

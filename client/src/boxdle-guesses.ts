@@ -12,6 +12,9 @@ import { GameOption, games } from "./games";
 
 provideFluentDesignSystem().register(fluentCombobox(), fluentOption(), fluentButton());
 
+interface Guess extends GameOption {
+    correct?: boolean;
+}
 @customElement("boxdle-guesses")
 export class BoxdleGuesses extends LitElement {
     static styles = css`
@@ -20,7 +23,6 @@ export class BoxdleGuesses extends LitElement {
             flex-direction: column;
             align-items: center;
             position: relative;
-            height: 10rem;
         }
         form {
             display: flex;
@@ -37,11 +39,33 @@ export class BoxdleGuesses extends LitElement {
             flex-direction: row;
             height: 10rem;
             padding: 0;
+            list-style-type: none;
+            gap: 1rem;
+        }
+        .guessList img {
+            object-fit: contain;
+            height: 100%;
+            width: 100%;
+        }
+        .guess {
+            border: 2px solid var(--theme-gray);
+            height: 10rem;
+            width: 10rem;
+            display: block;
+            position: relative;
+        }
+        .guess.correct {
+            background-color: var(--theme-correct);
+            border-color: var(--theme-correct);
+        }
+        .guess.incorrect {
+            background-color: var(--theme-incorrect);
+            border-color: var(--theme-incorrect);
         }
     `;
 
     @state()
-    guesses: GameOption[] = [];
+    guesses: Guess[] = [];
     @state()
     error: string | undefined;
     @property()
@@ -67,9 +91,15 @@ export class BoxdleGuesses extends LitElement {
             <ul class="guessList">
                 ${this.guesses.map(
                     guess =>
-                        html`<li class="guess"><img src=${
-                            new URL(`./boxart/steps/${guess.id}-${4}.png`, import.meta.url).href
-                        }></img>${guess.name}</li>`
+                        html`<li class="guess ${
+                            guess.correct ? "correct" : "incorrect"
+                        }"><img src=${
+                            new URL(`./boxart/${guess.id}.png`, import.meta.url).href
+                        } alt=${guess.name}></img></li>`
+                )}
+                ${Array.from(
+                    { length: 5 - this.guesses.length },
+                    () => html`<li class="guess"></li>`
                 )}
             </ul>
         `;
@@ -87,11 +117,12 @@ export class BoxdleGuesses extends LitElement {
             return;
         }
 
-        this.guesses = [...this.guesses, game];
         if (game.id === this.correctId) {
             this.dispatchEvent(new CustomEvent("correct"));
+            this.guesses = [...this.guesses, { ...game, correct: true }];
         } else {
             this.dispatchEvent(new CustomEvent("incorrect"));
+            this.guesses = [...this.guesses, game];
         }
         if ("preventDefault" in e) {
             e.preventDefault();

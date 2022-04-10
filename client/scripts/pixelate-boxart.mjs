@@ -1,6 +1,6 @@
 import nodeCanvas from "canvas";
 import FastAverageColor from "fast-average-color";
-import { access, readdir, writeFile } from "fs/promises";
+import { access, readdir, rm, writeFile } from "fs/promises";
 import path from "path";
 import { fileURLToPath } from "url";
 
@@ -22,13 +22,9 @@ const getColorForImageDataCoord = (x, y, imageData) => {
 const steps = [6, 12, 18, 24, 30];
 
 function pixelate(image, step) {
-    const canvas = createCanvas(image.width, image.height);
     const sourceCanvas = createCanvas(image.width, image.height);
-    const context = canvas.getContext("2d");
+    const context = outputCanvas.getContext("2d");
     const sourceContext = sourceCanvas.getContext("2d");
-
-    sourceCanvas.width = image.width;
-    sourceCanvas.height = image.height;
 
     sourceContext.drawImage(image, 0, 0, sourceCanvas.width, sourceCanvas.height);
 
@@ -41,8 +37,8 @@ function pixelate(image, step) {
     const buckets = Array.from({ length: targetWidth }, () =>
         Array.from({ length: targetHeight }, () => [])
     );
-    canvas.width = targetWidth;
-    canvas.height = targetHeight;
+
+    const outputCanvas = createCanvas(targetWidth, targetHeight);
     const averageColor = new FastAverageColor();
 
     for (let x = 0; x < sourceCanvas.width; x++) {
@@ -60,7 +56,7 @@ function pixelate(image, step) {
             }
         })
     );
-    return canvas.toBuffer("image/png");
+    return outputCanvas.toBuffer("image/png");
 }
 
 const boxartPath = path.resolve(
@@ -72,6 +68,12 @@ const boxartPath = path.resolve(
 
 async function generatePixelatedImages(guid, extension) {
     const image = await loadImage(path.join(boxartPath, `${guid}${extension}`));
+    if (extension === ".jpg") {
+        const pngCanvas = createCanvas(image.width, image.height);
+        pngCanvas.getContext("2d").drawImage(image, 0, 0);
+        await writeFile(path.join(boxartPath, `${guid}.png`), pngCanvas.toBuffer("image/png"));
+        await rm(path.join(boxartPath, `${guid}.jpg`));
+    }
     for (let i = 0; i < steps.length; i++) {
         const stepPath = path.join(boxartPath, `steps/${guid}-${i}.png`);
         try {
