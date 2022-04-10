@@ -23,7 +23,6 @@ const steps = [6, 12, 18, 24, 30];
 
 function pixelate(image, step) {
     const sourceCanvas = createCanvas(image.width, image.height);
-    const context = outputCanvas.getContext("2d");
     const sourceContext = sourceCanvas.getContext("2d");
 
     sourceContext.drawImage(image, 0, 0, sourceCanvas.width, sourceCanvas.height);
@@ -39,6 +38,7 @@ function pixelate(image, step) {
     );
 
     const outputCanvas = createCanvas(targetWidth, targetHeight);
+    const outputContext = outputCanvas.getContext("2d");
     const averageColor = new FastAverageColor();
 
     for (let x = 0; x < sourceCanvas.width; x++) {
@@ -50,10 +50,8 @@ function pixelate(image, step) {
     buckets.forEach((yBuckets, x) =>
         yBuckets.forEach((bucket, y) => {
             const color = averageColor.getColorFromArray4(bucket.flat(1));
-            if (context) {
-                context.fillStyle = `rgba(${color[0]}, ${color[1]}, ${color[2]}, ${color[3]})`;
-                context.fillRect(x, y, 1, 1);
-            }
+            outputContext.fillStyle = `rgba(${color[0]}, ${color[1]}, ${color[2]}, ${color[3]})`;
+            outputContext.fillRect(x, y, 1, 1);
         })
     );
     return outputCanvas.toBuffer("image/png");
