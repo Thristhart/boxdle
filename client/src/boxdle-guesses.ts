@@ -84,11 +84,7 @@ export class BoxdleGuesses extends LitElement {
         return html`
             <form @submit=${this._submit}>
                 ${this.error ? html`<span id="error">${this.error}</span>` : undefined}
-                <ui5-combobox
-                    name="game"
-                    ${ref(this.comboBoxRef)}
-                    filter="Contains"
-                    @keyup=${this._comboboxKeyup}>
+                <ui5-combobox name="game" ${ref(this.comboBoxRef)} @keyup=${this._comboboxKeyup}>
                     ${gamesAlphabetical.map(game =>
                         this.guesses.some(guess => guess.id === game.id)
                             ? undefined
@@ -184,3 +180,4 @@ declare global {
         "boxdle-guesses": BoxdleGuesses;
     }
 }
+
