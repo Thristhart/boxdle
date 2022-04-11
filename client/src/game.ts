@@ -39,11 +39,18 @@ function share(text: string) {
     }
 }
 guessesElement.addEventListener("share", () => {
-    share(
-        `boxdle #${dayNumber} ${getGuessCount()}\n${guessesElement.guesses
-            .map(guess => (guess.correct ? "🟩" : "⬛"))
-            .join("")}\n${location.href}`
-    );
+    let guessBoxes = "";
+    for (let i = 0; i < 5; i++) {
+        const guess = guessesElement.guesses[i];
+        if (!guess) {
+            guessBoxes += "⬜️";
+        } else if (guess.correct) {
+            guessBoxes += "🟩";
+        } else {
+            guessBoxes += "⬛";
+        }
+    }
+    share(`boxdle #${dayNumber} ${getGuessCount()}\n${guessBoxes}\n${location.href}`);
 });
 
 const dayInMS = 1000 * 60 * 60 * 24;
