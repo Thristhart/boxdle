@@ -1,9 +1,7 @@
-import "@ui5/webcomponents/dist/Button.js";
-import "@ui5/webcomponents/dist/ComboBox.js";
-import "@ui5/webcomponents/dist/features/InputElementsFormSupport.js";
 import { css, html, LitElement } from "lit";
 import { customElement, property, state } from "lit/decorators.js";
 import { createRef, Ref, ref } from "lit/directives/ref.js";
+import "./combo-box";
 import { GameOption, games, gamesAlphabetical } from "./games";
 
 interface Guess extends GameOption {
@@ -25,9 +23,6 @@ export class BoxdleGuesses extends LitElement {
             max-width: 24rem;
             width: 100%;
             flex-grow: 1;
-        }
-        ui5-combobox {
-            width: 100%;
         }
         #error {
         }
@@ -63,6 +58,20 @@ export class BoxdleGuesses extends LitElement {
             background-color: var(--theme-incorrect);
             border-color: var(--theme-incorrect);
         }
+        button {
+            font-size: 2rem;
+            font-family: inherit;
+            border-style: solid;
+            border-width: 20px;
+            border-image: url("pixelBorderButton.png") 20 fill stretch;
+            box-sizing: border-box;
+            color: white;
+            margin-top: 0.5rem;
+        }
+        button span {
+            margin: -20px;
+            display: block;
+        }
     `;
 
     @state()
@@ -84,15 +93,14 @@ export class BoxdleGuesses extends LitElement {
         return html`
             <form @submit=${this._submit}>
                 ${this.error ? html`<span id="error">${this.error}</span>` : undefined}
-                <ui5-combobox name="game" ${ref(this.comboBoxRef)} @keyup=${this._comboboxKeyup}>
+                <combo-box name="game" ${ref(this.comboBoxRef)} @submit=${this._submit}>
                     ${gamesAlphabetical.map(game =>
                         this.guesses.some(guess => guess.id === game.id)
                             ? undefined
-                            : html`<ui5-cb-item text=${game.name}></ui5-cb-item>`
+                            : html`<li data-id=${game.id}>${game.name}</li>`
                     )}
-                </ui5-combobox>
-                <!-- todo: switch to "submits" when ui5 publishes an update -->
-                <ui5-button @click=${this._fakeSubmit}>Guess</ui5-button>
+                </combo-box>
+                <button type="submit"><span>Guess</span></button>
             </form>
         `;
     }
@@ -117,7 +125,7 @@ export class BoxdleGuesses extends LitElement {
     }
 
     shareButton() {
-        return html` <ui5-button @click=${this._share}>Share</ui5-button> `;
+        return html` <button @click=${this._share}>Share</button> `;
     }
 
     private _share() {
@@ -158,20 +166,6 @@ export class BoxdleGuesses extends LitElement {
                 this.comboBoxRef.value.value = "";
             }
         });
-    }
-
-    private _fakeSubmit() {
-        const submitEvent = {
-            ...new SubmitEvent("submit"),
-            target: this.comboBoxRef.value?.parentElement as EventTarget,
-        };
-        this._submit(submitEvent);
-    }
-
-    private _comboboxKeyup(e: KeyboardEvent) {
-        if (e.key === "Enter") {
-            this._fakeSubmit();
-        }
     }
 }
 

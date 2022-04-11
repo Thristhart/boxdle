@@ -48,15 +48,19 @@ export class BoxdleDisplay extends LitElement {
             return;
         }
         if (this.ended) {
+            const name = games.find(({ id }) => id === this.guid)?.name;
             return html`
                 <div id="container">
-                    <img src=${getCompleteBoxartImageUrl(this.guid)}></img>
+                    <img src=${getCompleteBoxartImageUrl(this.guid)} aria-label=${name}></img>
                 </div>
-                <h2>${games.find(({ id }) => id === this.guid)?.name}</h2>
+                <h2>${name}</h2>
             `;
         }
         return html`
-            <img src=${getBoxartImageUrl(this.guid, this.guessNumber)}></img>
+            <img src=${getBoxartImageUrl(
+                this.guid,
+                this.guessNumber
+            )} aria-label="Pixelated box art. Step ${this.guessNumber} out of 5"></img>
         `;
     }
 }

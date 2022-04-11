@@ -60,6 +60,9 @@ const difference = currentDate.setHours(0, 0, 0, 0) - startDate.setHours(0, 0, 0
 const dayNumber = Math.round(difference / dayInMS);
 
 function loadStateFromLocalStorage() {
+    if (location.search === "?clear") {
+        localStorage.clear();
+    }
     const stateString = localStorage.getItem("boxdle-state");
     if (!stateString) {
         return;
