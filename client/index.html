@@ -26,6 +26,7 @@
                     "guesses";
                 grid-template-rows: min-content 1fr min-content;
                 grid-template-columns: 1fr;
+                gap: 1rem;
 
                 font-family: "VT323", monospace;
 
@@ -47,24 +48,13 @@
                 grid-area: display;
                 position: relative;
             }
-            #test {
-                width: 100%;
-                height: 100%;
-                object-fit: contain;
-                inset: 0;
-                position: absolute;
-            }
         </style>
         <header>
-            <h1>Boxdle</h1>
-            <h2 id="name"></h2>
+            <h1>boxdle</h1>
         </header>
-        <section>
-            <img id="test" src="" />
-        </section>
-        <label>reverse <input type="checkbox" id="reverse" /></label>
-        <!-- <boxdle-display guessNumber="0"></boxdle-display>
-        <boxdle-guesses></boxdle-guesses> -->
+        <boxdle-display guessNumber="0"></boxdle-display>
+        <boxdle-guesses></boxdle-guesses>
+        <ui5-toast id="copySuccessToast">Copied results to clipboard</ui5-toast>
     </body>
 </html>
 
