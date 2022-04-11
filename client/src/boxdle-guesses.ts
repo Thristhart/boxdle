@@ -136,7 +136,7 @@ export class BoxdleGuesses extends LitElement {
         if (this.ended) {
             return html`${this.guessList()} ${this.shareButton()}`;
         }
-        return html`${this.guessInput()} ${this.guessList()}`;
+        return html`${this.guessList()} ${this.guessInput()}`;
     }
 
     private _submit(e: SubmitEvent) {
