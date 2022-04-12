@@ -17,7 +17,7 @@ guessesElement.addEventListener("guess", () => {
     }
     localStorage.setItem(
         "boxdle-state",
-        JSON.stringify({ guesses: guessesElement.guesses, dayNumber })
+        JSON.stringify({ guesses: guessesElement.guesses, correctIndex: guessIndex })
     );
 });
 function getGuessCount() {
@@ -58,6 +58,7 @@ const startDate = new Date(2022, 3, 9, 0, 0, 0, 0);
 const currentDate = new Date();
 const difference = currentDate.setHours(0, 0, 0, 0) - startDate.setHours(0, 0, 0, 0);
 const dayNumber = Math.round(difference / dayInMS);
+let guessIndex = dayNumber % games.length;
 
 function loadStateFromLocalStorage() {
     if (location.search === "?clear") {
@@ -73,8 +74,8 @@ function loadStateFromLocalStorage() {
     } catch (e) {
         return;
     }
-    if ("dayNumber" in savedState) {
-        if (savedState.dayNumber !== dayNumber) {
+    if ("correctIndex" in savedState) {
+        if (savedState.correctIndex !== guessIndex) {
             // state isn't relevant anymore bc the day has continued
             return;
         }
@@ -90,12 +91,14 @@ function loadStateFromLocalStorage() {
 
 loadStateFromLocalStorage();
 
-let guessIndex = dayNumber % games.length;
+let canShare = true;
 
 if (location.search === "?random") {
     guessIndex = Math.floor(Math.random() * games.length);
+    canShare = false;
 }
 const target = games[guessIndex];
 
 guessesElement.correctId = target.id;
 display.guid = target.id;
+guessesElement.canShare = canShare;

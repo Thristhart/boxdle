@@ -67,10 +67,16 @@ export class BoxdleGuesses extends LitElement {
             box-sizing: border-box;
             color: white;
             margin-top: 0.5rem;
+            background-color: transparent;
         }
         button span {
             margin: -20px;
             display: block;
+        }
+        combo-box {
+            --dropdown-bg-color: black;
+            --dropdown-hover-color: #bf483a;
+            --input-background-color: black;
         }
     `;
 
@@ -82,12 +88,10 @@ export class BoxdleGuesses extends LitElement {
     correctId: string = "";
     @property({ type: Boolean })
     ended = false;
+    @property({ type: Boolean })
+    canShare = true;
 
     comboBoxRef: Ref<HTMLInputElement> = createRef();
-
-    connectedCallback() {
-        super.connectedCallback();
-    }
 
     guessInput() {
         return html`
@@ -125,6 +129,9 @@ export class BoxdleGuesses extends LitElement {
     }
 
     shareButton() {
+        if (!this.canShare) {
+            return undefined;
+        }
         return html` <button @click=${this._share}>Share</button> `;
     }
 

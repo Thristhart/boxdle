@@ -22,6 +22,10 @@ export class ComboBox extends LitElement {
             box-sizing: border-box;
             font: inherit;
             font-size: 1.5rem;
+            background-color: var(--input-background-color, transparent);
+            border-color: var(--theme-grey);
+            border-radius: 10px;
+            color: white;
         }
         ul {
             display: none;
@@ -55,10 +59,10 @@ export class ComboBox extends LitElement {
             font-size: 1.5rem;
         }
         ul li:hover {
-            background: #d1d1d1;
+            background: var(--dropdown-hover-color, #d1d1d1);
         }
         ul li[data-selected="true"] {
-            background-color: cornflowerblue;
+            background-color: var(--dropdown-selected-color, cornflowerblue);
         }
         input[aria-expanded="true"] ~ ul {
             display: block;
@@ -176,7 +180,9 @@ export class ComboBox extends LitElement {
     }
     onBlur(event: FocusEvent) {
         if (!(event.relatedTarget && this.shadowRoot?.contains(event.relatedTarget as Node))) {
-            // this.showDropdown = false;
+            setTimeout(() => {
+                this.showDropdown = false;
+            }, 500);
         }
     }
     onInput(e: InputEvent) {
