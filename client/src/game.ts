@@ -79,6 +79,8 @@ function loadStateFromLocalStorage() {
             // state isn't relevant anymore bc the day has continued
             return;
         }
+    } else {
+        return;
     }
     guessesElement!.guesses = savedState.guesses;
     display!.guessNumber = savedState.guesses.length;
